@@ -1,2 +1,13 @@
-# chat-web-application-Golang
-This project creates a server and client(s) for simple terminal-based chatting using WebSocket (golang.org/x/net/websocket).
+# Go Chat
+
+This is a simple chat web app written in Go
+
+Just run the following
+
+```
+cd ./src
+go get github.com/gorilla/websocket
+go run main.go
+```
+
+Then point your browser to http://localhost:8000
